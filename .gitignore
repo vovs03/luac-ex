@@ -1,2 +1,7 @@
-/lib/
+lib/
 *.swp
+main
+lua-5.4.4/
+
+# remake
+*.out.*
