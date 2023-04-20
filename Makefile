@@ -36,3 +36,8 @@ help:
 check:
 	#It's first step for synthax analize
 	@cat -e -t -v Makefile
+
+.PHONY: pre
+pre:
+	#Usually used alias `gd --staged`
+	@git diff --staged
