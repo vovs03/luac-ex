@@ -6,6 +6,9 @@ function factorial(n)
   end
 end
 
-print(factorial(4))
+-- print(factorial(4))
 -- 5! = 5*4*3*2*1 = 120
 
+print("Enter a number:")
+a = io.read("*n") -- reads a number
+print(factorial(a))
